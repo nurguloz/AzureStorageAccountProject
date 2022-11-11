@@ -1,5 +1,5 @@
 # Azure-Storage-Account
-In this asiignment  you will:
+In this assignnment  you will:
 
 Task 1: Provision the lab environment
 Task 2: Create and configure Azure Storage accounts
