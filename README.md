@@ -1,4 +1,4 @@
-# Azure-Storage-Account
+# AzureStorageAccount
 In this assignnment  you will:
 
 Task 1: Provision the lab environment
