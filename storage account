@@ -1,0 +1,57 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/97bd5240-6f78-4c57-a1f4-3a595d12831c/resourceGroups/az104-07-rg0/providers/Microsoft.Storage/storageAccounts/assignsix",
+    "name": "assignsix",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {
+        "assignment": "6"
+    },
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [
+                {
+                    "value": "142.114.140.123",
+                    "action": "Allow"
+                }
+            ],
+            "defaultAction": "Deny"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-08T03:23:36.8729471Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-08T03:23:36.8729471Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Cool",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-11-08T03:23:36.7166961Z",
+        "primaryEndpoints": {
+            "dfs": "https://assignsix.dfs.core.windows.net/",
+            "web": "https://assignsix.z13.web.core.windows.net/",
+            "blob": "https://assignsix.blob.core.windows.net/",
+            "queue": "https://assignsix.queue.core.windows.net/",
+            "table": "https://assignsix.table.core.windows.net/",
+            "file": "https://assignsix.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}
